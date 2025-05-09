@@ -86,6 +86,16 @@ Churned: 3.24 days
 
 Retained: 4.81 days
 
+
+
+This histogram shows that lower satisfaction scores are associated with higher churn rates.
+
+![Satisfaction vs. Churn](images/SatisfactionScoreDistribution.png)
+
+
+Correlation heat map of all variables in the data set. The three variables with the strongest correlation to churn are: tenure (-0.35), complaint (0.25) and days since last order (-0.16).
+
+![Correlation Heat Map](images/ChurnCorrelationHeatMap.png)
 ---
 
 ## 📈 Tableau Visualizations
