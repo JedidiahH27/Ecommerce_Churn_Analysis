@@ -48,17 +48,43 @@ Customer churn is a critical metric for any subscription or retail-based company
 
 ---
 
-## 📊 Key EDA Steps (in Python)
+## 📊 Key EDA Insights (in Python)
 
-- Data quality checks (nulls, outliers, duplicates)
-- Churn rate by:
-  - Tenure
-  - Device type
-  - Payment method
-  - City tier
-- Impact of complaints, satisfaction, and app usage on churn
-- Correlation matrix and pairplots
-- Aggregated KPIs (avg. orders, cashback, complaints) by churn status
+📉 Overall churn rate is 17%, signaling moderate customer loss risk.
+
+🧓 Churned customers had significantly lower tenure:
+
+3.38 months (churned) vs. 11.50 months (retained)
+
+🏠 Distance from warehouse matters:
+
+Churned customers lived farther away (17.13 vs. 15.35 units)
+
+👨‍👩‍👧‍👦 Gender impact:
+
+Males: 22% churn rate
+
+Females: 18% churn rate
+
+🎯 Satisfaction Score matters:
+
+Churn rate rises with satisfaction score:
+
+Score 1: 12%
+
+Score 5: 24%
+
+🛎️ Complaints strongly linked to churn:
+
+No complaint: 11% churn
+
+Complained: 32% churn
+
+⏳ Day since last order:
+
+Churned: 3.24 days
+
+Retained: 4.81 days
 
 ---
 
