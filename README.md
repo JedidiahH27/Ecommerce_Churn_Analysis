@@ -48,7 +48,7 @@ Customer churn is a critical metric for any subscription or retail-based company
 
 ---
 
-## 📊 Key EDA Insights (in Python)
+## 📊 Key EDA Insights
 
 📉 Overall churn rate is 17%, signaling moderate customer loss risk.
 
