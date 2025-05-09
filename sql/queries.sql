@@ -1,1 +1,20 @@
-
+CREATE TABLE customers (
+    CustomerID INT PRIMARY KEY,
+    Churn INT,
+    Tenure INT,
+    PreferredLoginDevice TEXT,
+    CityTier INT,
+    WarehouseToHome INT,
+    PreferredPaymentMode TEXT,
+    Gender TEXT,
+    HourSpendOnApp INT,
+    NumberOfDeviceRegistered INT,
+    PreferedOrderCat TEXT,
+    SatisfactionScore INT,
+    MaritalStatus TEXT,
+    NumberOfAddress INT,
+    Complain INT,
+    OrderAmountHikeFromlastYear INT,
+    CouponUsed INT,
+    OrderCount INT
+);
