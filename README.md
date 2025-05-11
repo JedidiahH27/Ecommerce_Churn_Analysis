@@ -100,9 +100,28 @@ Correlation heat map of all variables in the data set. The three variables with 
 
 ## 📈 Tableau Visualizations
 
-- Churn heatmaps by city and device
-- Tenure vs. churn bubble chart
-- Distribution of satisfaction scores
-- Filterable dashboards: churn rate by payment type, gender, complaints
+![Customer Churn Dashboard](images/ChurnDashboard.png)
+
+## 🔍 Key Findings
+Overall Churn Rate: 17%, indicating a moderate level of customer loss risk.
+
+Tenure: Churned customers had significantly shorter tenure (3.38 months) than retained customers (11.50 months).
+
+Complaints: Customers who filed complaints were nearly 3x more likely to churn (32% vs. 11%).
+
+Satisfaction Score: Higher satisfaction scores were unexpectedly associated with higher churn, warranting further investigation into expectation vs. experience.
+
+Distance to Warehouse: Churned users lived farther from fulfillment centers, suggesting a potential service or logistics gap.
+
+Gender: Males exhibited a higher churn rate (22%) compared to females (18%).
+
+## 💡 Strategic Implications
+Early Tenure Engagement: Prioritize onboarding and nurturing customers within their first 3–4 months.
+
+Complaint Resolution: Invest in faster and more personalized complaint handling processes.
+
+Logistics Optimization: Analyze delivery pain points for customers far from warehouses.
+
+Customer Segmentation: Develop tailored marketing or loyalty programs for high-risk segments identified through behavior patterns.
 
 ---
